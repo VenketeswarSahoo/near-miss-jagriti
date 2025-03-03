@@ -5,66 +5,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-    <title>Near Miss Delete Account</title>
+    <title>Near Miss Jagriti</title>
 </head>
 
 <body>
-    <div class="bg-zinc-50 text-sm py-12">
-        <div class="max-w-4xl mx-auto p-8 bg-white shadow-md rounded-lg">
-            <h1 class="text-xl font-bold mb-6">
-                Near Miss Delete Account Request
-            </h1>
-            <p class="text-gray-600 mb-6">
-                Effective Date: <span class="font-semibold">03/03/2025</span>
-            </p>
-
-            <p class="text-gray-700 leading-relaxed">
-                Users can request account deletion from the Profile section of the
-                app. At the bottom of the profile page, there is a "Delete Account
-                Request" button.
-            </p>
-
-            <div class="flex justify-center gap-12">
-                <img src="./Assets/Img1.jpg" alt="..." width="300" height="100" class="my-12" />
-                <img src="./Assets/Img2.jpg" alt="..." width="300" height="100" class="my-12" />
+    <section class="bg-primary text-white relative overflow-hidden h-[100vh]">
+        <a href="/" class="absolute top-10 left-10 z-50">
+            <img src='./Assets/Logo.jpg' class="h-8" />
+        </a>
+        <div class="absolute inset-0 bg-gradient-to-r from-primary to-blue-700 opacity-75"></div>
+        <div class="absolute top-10 left-10 w-20 h-20 bg-white rounded-full opacity-20"></div>
+        <div class="absolute bottom-10 right-10 w-32 h-32 bg-white rounded-full opacity-20"></div>
+        <div class="absolute top-1/2 left-1/3 w-16 h-16 bg-white rounded-full opacity-10"></div>
+        <div class="flex justify-center items-center h-[80vh]">
+            <div class="container mx-auto text-center relative z-10">
+                <h2 class="text-5xl font-bold mb-4 tracking-tight">
+                    Welcome to NearMiss Jagriti
+                </h2>
+                <p class="text-lg mb-8 max-w-2xl mx-auto">
+                    Proactive Safety, Preventing Accidents Empowering industries with
+                    real-time incident reporting to ensure a safer workplace.
+                </p>
             </div>
-
-            <h2 class="text-base font-semibold mt-8">
-                1. To submit a request, users need to:
-            </h2>
-            <ul class="list-disc ml-6 text-gray-700 leading-relaxed">
-                <li>PL No: (Auto-retrieved from the system)</li>
-                <li>Reason (Optional)</li>
-                <li>
-                    Once submitted, the request will be processed, and the account will
-                    be deleted within two weeks.
-                </li>
-            </ul>
-
-            <h2 class="text-base font-semibold mt-8">
-                2. Consequences of Deletion
-            </h2>
-            <ul class="list-disc ml-6 text-gray-700 leading-relaxed">
-                <li>Account deletion is permanent and cannot be reversed.</li>
-                <li>
-                    You will lose access to all incident reports and related services.
-                </li>
-            </ul>
-
-            <h2 class="text-base font-semibold mt-8"> 3. Contact Support</h2>
-            <p class="text-gray-700 leading-relaxed">
-                For any issues regarding account deletion, please contact:
-                <span class="font-semibold">
-                    📧 support@nearmissjagriti.com
-                </span>
-                with your account details.
-            </p>
-
-            <p class="mt-6 text-gray-700 text-center">
-                If you have any questions, feel free to reach out to our support team.
-            </p>
         </div>
-    </div>
+    </section>
+    <footer class="bg-black text-white py-10 shadow-inner">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left">
+            <div>
+                <h3 class="font-bold text-lg mb-2">Copyright</h3>
+                <p class="text-sm">
+                    &copy; 2025 Near Miss Jagriti. All rights reserved.
+                </p>
+            </div>
+            <div>
+                <h3 class="font-bold text-lg mb-2">Terms & Conditions</h3>
+                <a href="./terms-and-condition.html" class="text-sm hover:underline hover:text-gray-200">
+                    Read our terms
+                </a>
+            </div>
+            <div>
+                <h3 class="font-bold text-lg mb-2">Privacy Policy</h3>
+                <a href="./privacy-policy.html" class="text-sm hover:underline hover:text-gray-200">
+                    View our policy
+                </a>
+            </div>
+            <div>
+                <h3 class="font-bold text-lg mb-2">Delete Account</h3>
+                <p class="text-sm">
+                    <a href="./delete-account.html" class="hover:underline hover:text-gray-200">
+                        Delete Account
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
